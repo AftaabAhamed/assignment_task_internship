@@ -135,5 +135,20 @@
       <name>halfwall-3</name>
       <pose>4.73 3.74 0.0 0 0 0</pose> 
     </include>
+
+    <!-- <include>
+      <uri>
+      https://fuel.gazebosim.org/1.0/MovAi/models/pallet_box_mobile
+      </uri>
+      <pose>1.5 1.8 0.0 0 0 0</pose> 
+    </include>
+
+    <include>
+      <uri>
+      https://fuel.gazebosim.org/1.0/OpenRobotics/models/TrolleyBox2
+      </uri>
+      <pose>-2.25 -0.24 0.0 0 0 0</pose> 
+    </include> -->
+
   </world>
 </sdf>
