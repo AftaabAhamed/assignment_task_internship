@@ -1,3 +1,0 @@
-[ 50%] Built target test_navi
-[35m[1mConsolidate compiler generated dependencies of target waypoint_test[0m
-[ 75%] [32mBuilding CXX object CMakeFiles/waypoint_test.dir/src/goal_sender.cpp.o[0m

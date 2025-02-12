@@ -1,7 +1,0 @@
-[ 14%] Built target example_velocity
-[ 28%] Built target example_diff_drive
-[ 42%] Built target example_position
-[ 57%] Built target example_tricycle_drive
-[ 71%] Built target example_ackermann_drive
-[ 85%] Built target example_effort
-[100%] Built target example_gripper
