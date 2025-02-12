@@ -55,4 +55,8 @@ launch navigation using amcl and mapserver with premade map:
 ros2 launch navi_test ar_navi_no_mapping.launch.py
 ```
 
+Running goal publishing / initial pose setting node:
+```
+ros2 run navi_test waypoint_test
+```
 
