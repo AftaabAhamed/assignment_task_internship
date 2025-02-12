@@ -33,12 +33,13 @@ public:
         // publish_initial_pose();
 
         while (rclcpp::ok()) {
-            std::string input;
-            std::cout << "Enter x, y, theta: ";
-            std::cin >> input;
-            std::istringstream iss(input);
             double x, y, theta;
-            iss >> x >> y >> theta;
+            std::cout << "Enter x: ";
+            std::cin >> x;
+            std::cout << "Enter y: ";
+            std::cin >> y;
+            std::cout << "Enter theta: ";
+            std::cin >> theta;
 
             // Create a promise and future to wait for the result
             auto result_promise = std::make_shared<std::promise<void>>();
@@ -61,7 +62,8 @@ private:
         // initial_pose_msg.header.stamp = 0;
         initial_pose_msg.pose.pose.position.x = 0.2;
         initial_pose_msg.pose.pose.position.y = 0.0;
-        // initial_pose_msg.pose.pose.position.z = 0.15;
+        initial_pose_msg.pose.pose.position.z = 0.15;
+        initial_pose_msg.pose.pose.orientation.z = 0.0;
         initial_pose_msg.pose.pose.orientation.w = 1.0;
 
         RCLCPP_INFO(this->get_logger(), "Publishing initial pose...");
@@ -75,6 +77,8 @@ private:
         goal_msg.pose.pose.position.x = x;
         goal_msg.pose.pose.position.y = y;
         goal_msg.pose.pose.orientation.w = cos(theta / 2);
+        goal_msg.pose.pose.orientation.z = sin(theta / 2);
+        
 
         auto send_goal_options = rclcpp_action::Client<NavigateToPose>::SendGoalOptions();
         send_goal_options.feedback_callback = [this](GoalHandleNavigate::SharedPtr, const std::shared_ptr<const NavigateToPose::Feedback> feedback) {
@@ -91,7 +95,7 @@ private:
             result_promise->set_value();
         };
 
-        std::shared_future<GoalHandleNavigate::SharedPtr>future =  client_->async_send_goal(goal_msg, send_goal_options);
+        std::shared_future<GoalHandleNavigate::SharedPtr> future =  client_->async_send_goal(goal_msg, send_goal_options);
         RCLCPP_INFO(this->get_logger(), "Sending goal...");
         future.wait();
         RCLCPP_INFO(this->get_logger(), "resolved goal...");
