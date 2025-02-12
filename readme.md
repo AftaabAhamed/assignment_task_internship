@@ -59,4 +59,5 @@ Running goal publishing / initial pose setting node:
 ```
 ros2 run navi_test waypoint_test
 ```
-
+DEMO VIDEO
+[![DEMO](https://img.youtube.com/vi/XaN-HiLBtOc/0.jpg)](https://youtu.be/XaN-HiLBtOc)
