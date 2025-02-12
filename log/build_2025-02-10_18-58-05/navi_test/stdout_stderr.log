@@ -1,0 +1,29 @@
+[ 50%] Built target test_navi
+[100%] Built target waypoint_test
+-- Install configuration: ""
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/lib/navi_test/test_navi
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/lib/navi_test/waypoint_test
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//launch
+-- Installing: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//launch/try1.launch.py
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//launch/ar_navi_no_mapping.launch.py
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//launch/ar_navi.launch.py
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//config
+-- Installing: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//config/map_server_param.yaml
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//config/nav2_params.yaml
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//rviz
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//rviz/navigation_config.rviz
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/ament_index/resource_index/package_run_dependencies/navi_test
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/ament_index/resource_index/parent_prefix_path/navi_test
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/environment/ament_prefix_path.sh
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/environment/path.sh
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/environment/path.dsv
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/local_setup.bash
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/local_setup.sh
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/local_setup.zsh
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/local_setup.dsv
+-- Installing: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/package.dsv
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/ament_index/resource_index/packages/navi_test
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/cmake/navi_testConfig.cmake
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/cmake/navi_testConfig-version.cmake
+-- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/package.xml

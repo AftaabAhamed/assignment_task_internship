@@ -1,0 +1,37 @@
+[0.452s] Invoking command in '/home/e-yanthra/Documents/ar_ws/build/navi_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/navi_test -- -j8 -l8
+[0.640s] [35m[1mConsolidate compiler generated dependencies of target waypoint_test[0m
+[0.688s] [ 50%] Built target test_navi
+[0.714s] [ 75%] [32mBuilding CXX object CMakeFiles/waypoint_test.dir/src/goal_sender.cpp.o[0m
+[8.040s] [100%] [32m[1mLinking CXX executable waypoint_test[0m
+[8.496s] [100%] Built target waypoint_test
+[8.519s] Invoked command in '/home/e-yanthra/Documents/ar_ws/build/navi_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/navi_test -- -j8 -l8
+[8.590s] Invoking command in '/home/e-yanthra/Documents/ar_ws/build/navi_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/e-yanthra/Documents/ar_ws/build/navi_test
+[8.606s] -- Install configuration: ""
+[8.609s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/lib/navi_test/test_navi
+[8.610s] -- Installing: /home/e-yanthra/Documents/ar_ws/install/navi_test/lib/navi_test/waypoint_test
+[8.614s] -- Set runtime path of "/home/e-yanthra/Documents/ar_ws/install/navi_test/lib/navi_test/waypoint_test" to ""
+[8.614s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//launch
+[8.615s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//launch/try1.launch.py
+[8.616s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//launch/ar_navi_no_mapping.launch.py
+[8.616s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//launch/ar_navi.launch.py
+[8.616s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//config
+[8.617s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//config/map_server_param.yaml
+[8.617s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//config/nav2_params.yaml
+[8.617s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//rviz
+[8.618s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test//rviz/navigation_config.rviz
+[8.620s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/ament_index/resource_index/package_run_dependencies/navi_test
+[8.620s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/ament_index/resource_index/parent_prefix_path/navi_test
+[8.622s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/environment/ament_prefix_path.sh
+[8.622s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/environment/ament_prefix_path.dsv
+[8.622s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/environment/path.sh
+[8.623s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/environment/path.dsv
+[8.623s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/local_setup.bash
+[8.623s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/local_setup.sh
+[8.623s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/local_setup.zsh
+[8.623s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/local_setup.dsv
+[8.623s] -- Installing: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/package.dsv
+[8.626s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/ament_index/resource_index/packages/navi_test
+[8.627s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/cmake/navi_testConfig.cmake
+[8.627s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/cmake/navi_testConfig-version.cmake
+[8.627s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/package.xml
+[8.631s] Invoked command in '/home/e-yanthra/Documents/ar_ws/build/navi_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/e-yanthra/Documents/ar_ws/build/navi_test

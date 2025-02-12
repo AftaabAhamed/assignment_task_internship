@@ -1,0 +1,12 @@
+|-create ws and packages and stuff innstalled
+|-make the sim work
+|-try and get navigation to work
+|-create the maze w/o moving obstacle
+-rewrite and finalize the launch file kind of 
+-create ROS2 node in c++
+-send next goal postions and prompt for input and log when goal is reached
+-planner  parameter tuning
+-get git repo organised (add base repo as submodule if possible)
+-create marker light in rviz
+-add moving obstacle
+

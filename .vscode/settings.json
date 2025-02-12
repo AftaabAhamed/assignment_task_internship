@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/home/e-yanthra/Documents/ar_ws/navi_test",
+    "files.associations": {
+        "chrono": "cpp"
+    }
+}

@@ -1,0 +1,109 @@
+[1.280s] Invoking command in '/home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz -- -j8 -l8
+[1.431s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.731s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[2.734s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[2.735s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.749s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.782s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.789s] -- Added test 'lint_cmake' to check CMake code style
+[3.792s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.803s] -- Added test 'xmllint' to check XML markup files
+[3.814s] -- Configuring done
+[3.911s] -- Generating done
+[3.912s] -- Build files have been written to: /home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz
+[4.341s] Invoked command in '/home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz' returned '0': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz -- -j8 -l8
+[4.827s] Invoking command in '/home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz
+[4.869s] -- Install configuration: ""
+[4.870s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src
+[4.870s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description
+[4.871s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description/sam_bot_description.urdf
+[4.872s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts
+[4.872s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/follow_waypoints.py
+[4.873s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/reach_goal.py
+[4.879s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/__init__.py
+[4.883s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch
+[4.883s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/display.launch.py
+[4.884s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/ar_test.launch.py
+[4.884s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/complete_navigation.launch.py
+[4.884s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz
+[4.884s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz/navigation_config.rviz
+[4.885s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz/urdf_config.rviz
+[4.885s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config
+[4.885s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/nav2_params.yaml
+[4.909s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/diff_drive_controller_velocity.yaml
+[4.910s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/ekf.yaml
+[4.910s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world
+[4.910s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world/empty.sdf
+[4.910s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models
+[4.911s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small
+[4.911s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/model.sdf
+[4.911s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/model-1_3.sdf
+[4.911s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/model-1_4.sdf
+[4.912s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/materials
+[4.912s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/materials/scripts
+[4.912s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/materials/scripts/grey_wall.material
+[4.912s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/materials/textures
+[4.912s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/materials/textures/grey_wall.png
+[4.913s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/model.config
+[4.913s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/thumbnails
+[4.913s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/thumbnails/2.png
+[4.922s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/thumbnails/5.png
+[4.923s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/thumbnails/1.png
+[4.923s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/thumbnails/4.png
+[4.923s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall Small/thumbnails/3.png
+[4.923s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box
+[4.923s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/model.sdf
+[4.924s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/model-1_3.sdf
+[4.924s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/model-1_4.sdf
+[4.924s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/materials
+[4.924s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/materials/scripts
+[4.924s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/materials/scripts/grey_wall.material
+[4.930s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/materials/textures
+[4.930s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/materials/textures/grey_wall.png
+[4.930s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/model.config
+[4.930s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/thumbnails
+[4.936s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/thumbnails/2.png
+[4.937s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/thumbnails/5.png
+[4.937s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/thumbnails/1.png
+[4.937s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/thumbnails/4.png
+[4.937s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/obstacle box/thumbnails/3.png
+[4.937s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall
+[4.938s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/model.sdf
+[4.938s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/model-1_3.sdf
+[4.938s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/model-1_4.sdf
+[4.938s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/materials
+[4.939s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/materials/scripts
+[4.939s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/materials/scripts/grey_wall.material
+[4.939s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/materials/textures
+[4.939s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/materials/textures/grey_wall.png
+[4.940s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/model.config
+[4.940s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/thumbnails
+[4.940s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/thumbnails/2.png
+[4.940s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/thumbnails/5.png
+[4.940s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/thumbnails/1.png
+[4.941s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/thumbnails/4.png
+[4.941s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/Grey Wall/thumbnails/3.png
+[4.941s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/TurtlebotArena
+[4.952s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/TurtlebotArena/model.sdf
+[4.953s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/TurtlebotArena/meshes
+[4.953s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/TurtlebotArena/meshes/hexagon.dae
+[4.953s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/TurtlebotArena/meshes/wall.dae
+[4.953s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/TurtlebotArena/model.config
+[4.953s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/lib/sam_bot_nav2_gz/reach_goal.py
+[4.953s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/lib/sam_bot_nav2_gz/follow_waypoints.py
+[4.954s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/ament_index/resource_index/package_run_dependencies/sam_bot_nav2_gz
+[4.954s] -- Installing: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/ament_index/resource_index/parent_prefix_path/sam_bot_nav2_gz
+[4.956s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/ament_prefix_path.sh
+[4.956s] -- Installing: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/ament_prefix_path.dsv
+[4.956s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/path.sh
+[4.957s] -- Installing: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/path.dsv
+[4.957s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.bash
+[4.957s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.sh
+[4.958s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.zsh
+[4.959s] -- Installing: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.dsv
+[4.960s] -- Installing: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.dsv
+[4.960s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/ament_index/resource_index/packages/sam_bot_nav2_gz
+[4.961s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/cmake/sam_bot_nav2_gzConfig.cmake
+[4.961s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/cmake/sam_bot_nav2_gzConfig-version.cmake
+[4.961s] -- Up-to-date: /home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.xml
+[4.963s] Invoked command in '/home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz' returned '0': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz

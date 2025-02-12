@@ -1,0 +1,163 @@
+[0.613s] Invoking command in '/home/e-yanthra/Documents/ar_ws/build/navi_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/navi_test -- -j8 -l8
+[0.730s] [35m[1mConsolidate compiler generated dependencies of target waypoint_test[0m
+[0.763s] [ 50%] Built target test_navi
+[0.816s] [ 75%] [32mBuilding CXX object CMakeFiles/waypoint_test.dir/src/goal_sender.cpp.o[0m
+[7.323s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:[m[K In member function ‘[01m[Kvoid NavigateClient::send_goal(double, double)[m[K’:
+[7.324s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:69:25:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kweak_from_this[m[K’ is ambiguous
+[7.324s]    69 |         if (auto self = [01;31m[Kweak_from_this[m[K().lock()) {
+[7.325s]       |                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.325s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.325s]                  from [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:3[m[K:
+[7.326s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:821:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::weak_ptr<const _Tp> std::enable_shared_from_this<_Tp>::weak_from_this() const [with _Tp = NavigateClient][m[K’
+[7.326s]   821 |       [01;36m[Kweak_from_this[m[K() const noexcept
+[7.327s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[7.327s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:817:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::weak_ptr<_Tp> std::enable_shared_from_this<_Tp>::weak_from_this() [with _Tp = NavigateClient][m[K’
+[7.327s]   817 |       [01;36m[Kweak_from_this[m[K() noexcept
+[7.327s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[7.327s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:821:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::weak_ptr<const _Tp> std::enable_shared_from_this<_Tp>::weak_from_this() const [with _Tp = rclcpp::Node][m[K’
+[7.328s]   821 |       [01;36m[Kweak_from_this[m[K() const noexcept
+[7.328s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[7.328s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:817:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::weak_ptr<_Tp> std::enable_shared_from_this<_Tp>::weak_from_this() [with _Tp = rclcpp::Node][m[K’
+[7.328s]   817 |       [01;36m[Kweak_from_this[m[K() noexcept
+[7.328s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[7.329s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.331s]                  from [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:7[m[K:
+[7.331s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:[m[K In lambda function:
+[7.331s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:73:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.331s]    73 |                         [01;31m[KRCLCPP_INFO[m[K(self->get_logger(), "Navigation succeeded!");
+[7.331s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[7.332s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:73:25:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[7.332s]    73 |                         [01;31m[KRCLCPP_INFO[m[K(self->get_logger(), "Navigation succeeded!");
+[7.332s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[7.333s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:73:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.333s]    73 |                         [01;31m[KRCLCPP_INFO[m[K(self->get_logger(), "Navigation succeeded!");
+[7.333s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[7.333s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:73:25:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[7.333s]    73 |                         [01;31m[KRCLCPP_INFO[m[K(self->get_logger(), "Navigation succeeded!");
+[7.334s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[7.334s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:73:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.334s]    73 |                         [01;31m[KRCLCPP_INFO[m[K(self->get_logger(), "Navigation succeeded!");
+[7.334s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[7.335s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.341s]                  from [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:7[m[K:
+[7.341s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:73:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kself[m[K’ is not captured
+[7.341s]    73 |                         RCLCPP_INFO([01;31m[Kself[m[K->get_logger(), "Navigation succeeded!");
+[7.341s]       |                                     [01;31m[K^~~~[m[K
+[7.342s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:71:22:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[7.342s]    71 |                 [self[01;36m[K][m[K(const GoalHandleNavigate::WrappedResult &result) {
+[7.342s]       |                      [01;36m[K^[m[K
+[7.342s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:69:18:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>self[m[K’ declared here
+[7.343s]    69 |         if (auto [01;36m[Kself[m[K = weak_from_this().lock()) {
+[7.343s]       |                  [01;36m[K^~~~[m[K
+[7.343s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.345s]                  from [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:7[m[K:
+[7.345s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:73:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kself[m[K’ is not captured
+[7.346s]    73 |                         RCLCPP_INFO([01;31m[Kself[m[K->get_logger(), "Navigation succeeded!");
+[7.346s]       |                                     [01;31m[K^~~~[m[K
+[7.346s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:71:22:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[7.346s]    71 |                 [self[01;36m[K][m[K(const GoalHandleNavigate::WrappedResult &result) {
+[7.346s]       |                      [01;36m[K^[m[K
+[7.347s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:69:18:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>self[m[K’ declared here
+[7.347s]    69 |         if (auto [01;36m[Kself[m[K = weak_from_this().lock()) {
+[7.347s]       |                  [01;36m[K^~~~[m[K
+[7.347s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.349s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.349s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.349s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.349s]                  from [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:7[m[K:
+[7.349s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:76:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.350s]    76 |                         [01;31m[KRCLCPP_WARN[m[K(self->get_logger(), "Navigation failed!");
+[7.350s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[7.350s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:76:25:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[7.350s]    76 |                         [01;31m[KRCLCPP_WARN[m[K(self->get_logger(), "Navigation failed!");
+[7.350s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[7.351s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:76:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.351s]    76 |                         [01;31m[KRCLCPP_WARN[m[K(self->get_logger(), "Navigation failed!");
+[7.351s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[7.351s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:76:25:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[7.351s]    76 |                         [01;31m[KRCLCPP_WARN[m[K(self->get_logger(), "Navigation failed!");
+[7.352s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[7.352s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:76:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.352s]    76 |                         [01;31m[KRCLCPP_WARN[m[K(self->get_logger(), "Navigation failed!");
+[7.352s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[7.352s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.354s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.354s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.354s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.355s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.355s]                  from [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:7[m[K:
+[7.355s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:76:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kself[m[K’ is not captured
+[7.356s]    76 |                         RCLCPP_WARN([01;31m[Kself[m[K->get_logger(), "Navigation failed!");
+[7.356s]       |                                     [01;31m[K^~~~[m[K
+[7.356s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:71:22:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[7.356s]    71 |                 [self[01;36m[K][m[K(const GoalHandleNavigate::WrappedResult &result) {
+[7.356s]       |                      [01;36m[K^[m[K
+[7.357s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:69:18:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>self[m[K’ declared here
+[7.357s]    69 |         if (auto [01;36m[Kself[m[K = weak_from_this().lock()) {
+[7.357s]       |                  [01;36m[K^~~~[m[K
+[7.357s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.358s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.359s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.359s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.359s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.359s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.359s]                  from [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:7[m[K:
+[7.360s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:76:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kself[m[K’ is not captured
+[7.360s]    76 |                         RCLCPP_WARN([01;31m[Kself[m[K->get_logger(), "Navigation failed!");
+[7.360s]       |                                     [01;31m[K^~~~[m[K
+[7.360s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:71:22:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[7.360s]    71 |                 [self[01;36m[K][m[K(const GoalHandleNavigate::WrappedResult &result) {
+[7.361s]       |                      [01;36m[K^[m[K
+[7.361s] [01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:69:18:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>self[m[K’ declared here
+[7.361s]    69 |         if (auto [01;36m[Kself[m[K = weak_from_this().lock()) {
+[7.361s]       |                  [01;36m[K^~~~[m[K
+[9.003s] gmake[2]: *** [CMakeFiles/waypoint_test.dir/build.make:76: CMakeFiles/waypoint_test.dir/src/goal_sender.cpp.o] Error 1
+[9.006s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/waypoint_test.dir/all] Error 2
+[9.007s] gmake: *** [Makefile:146: all] Error 2
+[9.011s] Invoked command in '/home/e-yanthra/Documents/ar_ws/build/navi_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/navi_test -- -j8 -l8

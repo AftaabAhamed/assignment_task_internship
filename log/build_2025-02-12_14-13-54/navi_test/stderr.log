@@ -1,0 +1,7 @@
+[01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:[m[K In member function ‘[01m[Kvoid NavigateClient::send_goal(double, double, double, std::shared_ptr<std::promise<void> >)[m[K’:
+[01m[K/home/e-yanthra/Documents/ar_ws/navi_test/src/goal_sender.cpp:94:98:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kshared_future<[01;32m[Kstd::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> >[m[K>[m[K’ to non-scalar type ‘[01m[Kshared_future<[01;32m[Krclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::WrappedResult[m[K>[m[K’ requested
+   94 |         std::shared_future< GoalHandleNavigate::WrappedResult> future =  [01;31m[Kclient_->async_send_goal(goal_msg, send_goal_options)[m[K;
+      |                                                                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/waypoint_test.dir/build.make:76: CMakeFiles/waypoint_test.dir/src/goal_sender.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/waypoint_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

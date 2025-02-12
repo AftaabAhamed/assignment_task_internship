@@ -1,0 +1,551 @@
+[2.849s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.849s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7bbeac0280>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7bbebff8e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7bbebff8e0>>)
+[3.011s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.012s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/e-yanthra/Documents/ar_ws'
+[3.012s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.012s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.012s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.013s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall) by extensions ['ignore', 'ignore_ament_install']
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall) by extension 'ignore'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall) by extension 'ignore_ament_install'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall) by extensions ['colcon_pkg']
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall) by extension 'colcon_pkg'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall) by extensions ['colcon_meta']
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall) by extension 'colcon_meta'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall) by extensions ['ros']
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall) by extension 'ros'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall) by extensions ['cmake', 'python']
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall) by extension 'cmake'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall) by extension 'python'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall) by extensions ['python_setup_py']
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall) by extension 'python_setup_py'
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials) by extensions ['ignore', 'ignore_ament_install']
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials) by extension 'ignore'
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials) by extension 'ignore_ament_install'
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials) by extensions ['colcon_pkg']
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials) by extension 'colcon_pkg'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials) by extensions ['colcon_meta']
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials) by extension 'colcon_meta'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials) by extensions ['ros']
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials) by extension 'ros'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials) by extensions ['cmake', 'python']
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials) by extension 'cmake'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials) by extension 'python'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials) by extensions ['python_setup_py']
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials) by extension 'python_setup_py'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/scripts) by extension 'ignore'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/scripts) by extension 'ignore_ament_install'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/scripts) by extensions ['colcon_pkg']
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/scripts) by extension 'colcon_pkg'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/scripts) by extensions ['colcon_meta']
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/scripts) by extension 'colcon_meta'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/scripts) by extensions ['ros']
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/scripts) by extension 'ros'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/scripts) by extensions ['cmake', 'python']
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/scripts) by extension 'cmake'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/scripts) by extension 'python'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/scripts) by extensions ['python_setup_py']
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/scripts) by extension 'python_setup_py'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/textures) by extension 'ignore'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/textures) by extension 'ignore_ament_install'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/textures) by extensions ['colcon_pkg']
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/textures) by extension 'colcon_pkg'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/textures) by extensions ['colcon_meta']
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/textures) by extension 'colcon_meta'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/textures) by extensions ['ros']
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/textures) by extension 'ros'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/textures) by extensions ['cmake', 'python']
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/textures) by extension 'cmake'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/textures) by extension 'python'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/textures) by extensions ['python_setup_py']
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/materials/textures) by extension 'python_setup_py'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/thumbnails) by extension 'ignore'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/thumbnails) by extension 'ignore_ament_install'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/thumbnails) by extensions ['colcon_pkg']
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/thumbnails) by extension 'colcon_pkg'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/thumbnails) by extensions ['colcon_meta']
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/thumbnails) by extension 'colcon_meta'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/thumbnails) by extensions ['ros']
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/thumbnails) by extension 'ros'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/thumbnails) by extensions ['cmake', 'python']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/thumbnails) by extension 'cmake'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/thumbnails) by extension 'python'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/thumbnails) by extensions ['python_setup_py']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(Grey Wall/thumbnails) by extension 'python_setup_py'
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.057s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.057s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.057s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.057s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.057s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(navi_test) by extensions ['ignore', 'ignore_ament_install']
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(navi_test) by extension 'ignore'
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(navi_test) by extension 'ignore_ament_install'
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(navi_test) by extensions ['colcon_pkg']
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(navi_test) by extension 'colcon_pkg'
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(navi_test) by extensions ['colcon_meta']
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(navi_test) by extension 'colcon_meta'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(navi_test) by extensions ['ros']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(navi_test) by extension 'ros'
+[3.064s] DEBUG:colcon.colcon_core.package_identification:Package 'navi_test' with type 'ros.ament_cmake' and name 'navi_test'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example) by extensions ['ignore', 'ignore_ament_install']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example) by extension 'ignore'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example) by extension 'ignore_ament_install'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example) by extensions ['colcon_pkg']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example) by extension 'colcon_pkg'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example) by extensions ['colcon_meta']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example) by extension 'colcon_meta'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example) by extensions ['ros']
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example) by extension 'ros'
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example) by extensions ['cmake', 'python']
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example) by extension 'cmake'
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example) by extension 'python'
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example) by extensions ['python_setup_py']
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example) by extension 'python_setup_py'
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/rerun) by extensions ['ignore', 'ignore_ament_install']
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/rerun) by extension 'ignore'
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/rerun) ignored
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src) by extensions ['ignore', 'ignore_ament_install']
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src) by extension 'ignore'
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src) by extension 'ignore_ament_install'
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src) by extensions ['colcon_pkg']
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src) by extension 'colcon_pkg'
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src) by extensions ['colcon_meta']
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src) by extension 'colcon_meta'
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src) by extensions ['ros']
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src) by extension 'ros'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src) by extensions ['cmake', 'python']
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src) by extension 'cmake'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src) by extension 'python'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src) by extensions ['python_setup_py']
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src) by extension 'python_setup_py'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control) by extension 'ignore'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control) by extension 'ignore_ament_install'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control) by extensions ['colcon_pkg']
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control) by extension 'colcon_pkg'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control) by extensions ['colcon_meta']
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control) by extension 'colcon_meta'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control) by extensions ['ros']
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control) by extension 'ros'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control) by extensions ['cmake', 'python']
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control) by extension 'cmake'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control) by extension 'python'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control) by extensions ['python_setup_py']
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control) by extension 'python_setup_py'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/Dockerfile) by extensions ['ignore', 'ignore_ament_install']
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/Dockerfile) by extension 'ignore'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/Dockerfile) by extension 'ignore_ament_install'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/Dockerfile) by extensions ['colcon_pkg']
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/Dockerfile) by extension 'colcon_pkg'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/Dockerfile) by extensions ['colcon_meta']
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/Dockerfile) by extension 'colcon_meta'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/Dockerfile) by extensions ['ros']
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/Dockerfile) by extension 'ros'
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/Dockerfile) by extensions ['cmake', 'python']
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/Dockerfile) by extension 'cmake'
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/Dockerfile) by extension 'python'
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/Dockerfile) by extensions ['python_setup_py']
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/Dockerfile) by extension 'python_setup_py'
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc) by extensions ['ignore', 'ignore_ament_install']
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc) by extension 'ignore'
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc) by extension 'ignore_ament_install'
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc) by extensions ['colcon_pkg']
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc) by extension 'colcon_pkg'
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc) by extensions ['colcon_meta']
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc) by extension 'colcon_meta'
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc) by extensions ['ros']
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc) by extension 'ros'
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc) by extensions ['cmake', 'python']
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc) by extension 'cmake'
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc) by extension 'python'
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc) by extensions ['python_setup_py']
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc) by extension 'python_setup_py'
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc/img) by extensions ['ignore', 'ignore_ament_install']
+[3.074s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc/img) by extension 'ignore'
+[3.074s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc/img) by extension 'ignore_ament_install'
+[3.074s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc/img) by extensions ['colcon_pkg']
+[3.074s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc/img) by extension 'colcon_pkg'
+[3.074s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc/img) by extensions ['colcon_meta']
+[3.074s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc/img) by extension 'colcon_meta'
+[3.074s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc/img) by extensions ['ros']
+[3.074s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc/img) by extension 'ros'
+[3.074s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc/img) by extensions ['cmake', 'python']
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc/img) by extension 'cmake'
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc/img) by extension 'python'
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc/img) by extensions ['python_setup_py']
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/doc/img) by extension 'python_setup_py'
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/gz_ros2_control_tests) by extensions ['ignore', 'ignore_ament_install']
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/gz_ros2_control_tests) by extension 'ignore'
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/gz_ros2_control_tests) by extension 'ignore_ament_install'
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/gz_ros2_control_tests) by extensions ['colcon_pkg']
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/gz_ros2_control_tests) by extension 'colcon_pkg'
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/gz_ros2_control_tests) by extensions ['colcon_meta']
+[3.076s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/gz_ros2_control_tests) by extension 'colcon_meta'
+[3.076s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/gz_ros2_control_tests) by extensions ['ros']
+[3.076s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/gz_ros2_control_tests) by extension 'ros'
+[3.085s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_ignition_gazebo_example/src/gz_ros2_control/gz_ros2_control_tests' with type 'ros.ament_cmake' and name 'gz_ros2_control_tests'
+[3.085s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[3.085s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control) by extension 'ignore'
+[3.085s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control) by extension 'ignore_ament_install'
+[3.086s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control) by extensions ['colcon_pkg']
+[3.086s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control) by extension 'colcon_pkg'
+[3.086s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control) by extensions ['colcon_meta']
+[3.086s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control) by extension 'colcon_meta'
+[3.086s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control) by extensions ['ros']
+[3.086s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control) by extension 'ros'
+[3.099s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control' with type 'ros.ament_cmake' and name 'ign_ros2_control'
+[3.099s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control_demos) by extension 'ignore'
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control_demos) by extension 'ignore_ament_install'
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control_demos) by extensions ['colcon_pkg']
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control_demos) by extension 'colcon_pkg'
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control_demos) by extensions ['colcon_meta']
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control_demos) by extension 'colcon_meta'
+[3.101s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control_demos) by extensions ['ros']
+[3.101s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control_demos) by extension 'ros'
+[3.104s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control_demos' with type 'ros.ament_cmake' and name 'ign_ros2_control_demos'
+[3.104s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/sam_bot_nav2_gz) by extensions ['ignore', 'ignore_ament_install']
+[3.104s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/sam_bot_nav2_gz) by extension 'ignore'
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/sam_bot_nav2_gz) by extension 'ignore_ament_install'
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/sam_bot_nav2_gz) by extensions ['colcon_pkg']
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/sam_bot_nav2_gz) by extension 'colcon_pkg'
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/sam_bot_nav2_gz) by extensions ['colcon_meta']
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/sam_bot_nav2_gz) by extension 'colcon_meta'
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/sam_bot_nav2_gz) by extensions ['ros']
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_ignition_gazebo_example/src/sam_bot_nav2_gz) by extension 'ros'
+[3.107s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_ignition_gazebo_example/src/sam_bot_nav2_gz' with type 'ros.ament_cmake' and name 'sam_bot_nav2_gz'
+[3.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.109s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.109s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.109s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.109s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.109s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.448s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/e-yanthra/Documents/ar_ws/install
+[3.486s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/e-yanthra/asc/asc_ws/install
+[3.528s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/e-yanthra/robocon/install
+[3.565s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/e-yanthra/eyrc_hb/hb_task6_ws/install
+[3.605s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/e-yanthra/eyrc_hb/hb_task5_ws/install
+[3.668s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/e-yanthra/eyrc_hb/hb_task4_ws/install
+[3.708s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/e-yanthra/eyrc_hb/hb_task_2_ws/install
+[3.745s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/e-yanthra/eyrc_hb/hb_task1b_ws/install
+[3.784s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/e-yanthra/eyrc_hb/hb_task1a_ws/install
+[3.827s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 378 installed packages in /opt/ros/humble
+[3.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.049s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_args' from command line to 'None'
+[4.049s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_target' from command line to 'None'
+[4.049s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.049s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[4.049s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[4.049s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[4.050s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[4.050s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[4.050s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.050s] DEBUG:colcon.colcon_core.verb:Building package 'ign_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/e-yanthra/Documents/ar_ws/build/ign_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control', 'merge_install': False, 'path': '/home/e-yanthra/Documents/ar_ws/navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[4.089s] Level 5:colcon.colcon_core.verb:set package 'navi_test' build argument 'cmake_args' from command line to 'None'
+[4.090s] Level 5:colcon.colcon_core.verb:set package 'navi_test' build argument 'cmake_target' from command line to 'None'
+[4.090s] Level 5:colcon.colcon_core.verb:set package 'navi_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.090s] Level 5:colcon.colcon_core.verb:set package 'navi_test' build argument 'cmake_clean_cache' from command line to 'False'
+[4.090s] Level 5:colcon.colcon_core.verb:set package 'navi_test' build argument 'cmake_clean_first' from command line to 'False'
+[4.090s] Level 5:colcon.colcon_core.verb:set package 'navi_test' build argument 'cmake_force_configure' from command line to 'False'
+[4.090s] Level 5:colcon.colcon_core.verb:set package 'navi_test' build argument 'ament_cmake_args' from command line to 'None'
+[4.090s] Level 5:colcon.colcon_core.verb:set package 'navi_test' build argument 'catkin_cmake_args' from command line to 'None'
+[4.090s] Level 5:colcon.colcon_core.verb:set package 'navi_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.090s] DEBUG:colcon.colcon_core.verb:Building package 'navi_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/e-yanthra/Documents/ar_ws/build/navi_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/e-yanthra/Documents/ar_ws/install/navi_test', 'merge_install': False, 'path': '/home/e-yanthra/Documents/ar_ws/navi_test', 'symlink_install': False, 'test_result_base': None}
+[4.130s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_args' from command line to 'None'
+[4.131s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_target' from command line to 'None'
+[4.131s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.131s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[4.131s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_clean_first' from command line to 'False'
+[4.131s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_force_configure' from command line to 'False'
+[4.131s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'ament_cmake_args' from command line to 'None'
+[4.131s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[4.131s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.131s] DEBUG:colcon.colcon_core.verb:Building package 'gz_ros2_control_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/e-yanthra/Documents/ar_ws/build/gz_ros2_control_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests', 'merge_install': False, 'path': '/home/e-yanthra/Documents/ar_ws/navigation2_ignition_gazebo_example/src/gz_ros2_control/gz_ros2_control_tests', 'symlink_install': False, 'test_result_base': None}
+[4.170s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[4.170s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[4.170s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.170s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[4.170s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[4.170s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[4.170s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[4.170s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[4.170s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.170s] DEBUG:colcon.colcon_core.verb:Building package 'ign_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/e-yanthra/Documents/ar_ws/build/ign_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos', 'merge_install': False, 'path': '/home/e-yanthra/Documents/ar_ws/navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control_demos', 'symlink_install': False, 'test_result_base': None}
+[4.211s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'cmake_args' from command line to 'None'
+[4.211s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'cmake_target' from command line to 'None'
+[4.211s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.211s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'cmake_clean_cache' from command line to 'False'
+[4.211s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'cmake_clean_first' from command line to 'False'
+[4.211s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'cmake_force_configure' from command line to 'False'
+[4.211s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'ament_cmake_args' from command line to 'None'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'catkin_cmake_args' from command line to 'None'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.212s] DEBUG:colcon.colcon_core.verb:Building package 'sam_bot_nav2_gz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz', 'merge_install': False, 'path': '/home/e-yanthra/Documents/ar_ws/navigation2_ignition_gazebo_example/src/sam_bot_nav2_gz', 'symlink_install': False, 'test_result_base': None}
+[4.248s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.306s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.306s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/e-yanthra/Documents/ar_ws/navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control' with build type 'ament_cmake'
+[4.307s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/e-yanthra/Documents/ar_ws/navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control'
+[4.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.902s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/e-yanthra/Documents/ar_ws/navi_test' with build type 'ament_cmake'
+[4.903s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/e-yanthra/Documents/ar_ws/navi_test'
+[4.948s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.948s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/e-yanthra/Documents/ar_ws/build/ign_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/ign_ros2_control -- -j8 -l8
+[5.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/e-yanthra/Documents/ar_ws/build/navi_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/navi_test -- -j8 -l8
+[5.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/e-yanthra/Documents/ar_ws/build/ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/ign_ros2_control -- -j8 -l8
+[5.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/e-yanthra/Documents/ar_ws/build/ign_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --install /home/e-yanthra/Documents/ar_ws/build/ign_ros2_control
+[5.884s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control)
+[5.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/e-yanthra/Documents/ar_ws/build/ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --install /home/e-yanthra/Documents/ar_ws/build/ign_ros2_control
+[5.967s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control' for CMake module files
+[5.969s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control' for CMake config files
+[5.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control', 'cmake_prefix_path')
+[6.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.ps1'
+[6.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.dsv'
+[6.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.sh'
+[6.020s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/lib'
+[6.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control', 'ld_library_path_lib')
+[6.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.ps1'
+[6.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.dsv'
+[6.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.sh'
+[6.072s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/bin'
+[6.072s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/lib/pkgconfig/ign_ros2_control.pc'
+[6.073s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/lib/python3.10/site-packages'
+[6.074s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/bin'
+[6.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/package.ps1'
+[6.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/package.dsv'
+[6.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/package.sh'
+[6.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/package.bash'
+[6.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/package.zsh'
+[6.160s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/colcon-core/packages/ign_ros2_control)
+[6.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control)
+[6.360s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control' for CMake module files
+[6.361s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control' for CMake config files
+[6.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control', 'cmake_prefix_path')
+[6.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.ps1'
+[6.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.dsv'
+[6.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.sh'
+[6.405s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/lib'
+[6.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control', 'ld_library_path_lib')
+[6.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.ps1'
+[6.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.dsv'
+[6.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/hook/ld_library_path_lib.sh'
+[6.449s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/bin'
+[6.449s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/lib/pkgconfig/ign_ros2_control.pc'
+[6.450s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/lib/python3.10/site-packages'
+[6.450s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/bin'
+[6.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/package.ps1'
+[6.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/package.dsv'
+[6.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/package.sh'
+[6.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/package.bash'
+[6.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/ign_ros2_control/package.zsh'
+[6.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control/share/colcon-core/packages/ign_ros2_control)
+[6.508s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/e-yanthra/Documents/ar_ws/navigation2_ignition_gazebo_example/src/gz_ros2_control/gz_ros2_control_tests' with build type 'ament_cmake'
+[6.509s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/e-yanthra/Documents/ar_ws/navigation2_ignition_gazebo_example/src/gz_ros2_control/gz_ros2_control_tests'
+[6.568s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.087s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/e-yanthra/Documents/ar_ws/navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control_demos' with build type 'ament_cmake'
+[7.088s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/e-yanthra/Documents/ar_ws/navigation2_ignition_gazebo_example/src/gz_ros2_control/ign_ros2_control_demos'
+[7.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.696s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/e-yanthra/Documents/ar_ws/navigation2_ignition_gazebo_example/src/sam_bot_nav2_gz' with build type 'ament_cmake'
+[7.697s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/e-yanthra/Documents/ar_ws/navigation2_ignition_gazebo_example/src/sam_bot_nav2_gz'
+[7.746s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.746s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/e-yanthra/Documents/ar_ws/build/gz_ros2_control_tests': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/gz_ros2_control_tests -- -j8 -l8
+[8.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/e-yanthra/Documents/ar_ws/build/ign_ros2_control_demos': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/ign_ros2_control_demos -- -j8 -l8
+[8.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz -- -j8 -l8
+[8.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz' returned '0': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz -- -j8 -l8
+[8.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/e-yanthra/Documents/ar_ws/build/gz_ros2_control_tests' returned '0': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/gz_ros2_control_tests -- -j8 -l8
+[8.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --install /home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz
+[8.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/e-yanthra/Documents/ar_ws/build/ign_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/ign_ros2_control_demos -- -j8 -l8
+[8.925s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sam_bot_nav2_gz)
+[8.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz' returned '0': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --install /home/e-yanthra/Documents/ar_ws/build/sam_bot_nav2_gz
+[9.012s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz' for CMake module files
+[9.013s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz' for CMake config files
+[9.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('sam_bot_nav2_gz', 'cmake_prefix_path')
+[9.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/hook/cmake_prefix_path.ps1'
+[9.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/hook/cmake_prefix_path.dsv'
+[9.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/hook/cmake_prefix_path.sh'
+[9.080s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/lib'
+[9.080s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/bin'
+[9.080s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/lib/pkgconfig/sam_bot_nav2_gz.pc'
+[9.081s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/lib/python3.10/site-packages'
+[9.082s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/bin'
+[9.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.ps1'
+[9.133s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.dsv'
+[9.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.sh'
+[9.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.bash'
+[9.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.zsh'
+[9.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/colcon-core/packages/sam_bot_nav2_gz)
+[9.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/e-yanthra/Documents/ar_ws/build/gz_ros2_control_tests': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --install /home/e-yanthra/Documents/ar_ws/build/gz_ros2_control_tests
+[9.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/e-yanthra/Documents/ar_ws/build/ign_ros2_control_demos': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --install /home/e-yanthra/Documents/ar_ws/build/ign_ros2_control_demos
+[9.183s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz_ros2_control_tests)
+[9.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/e-yanthra/Documents/ar_ws/build/gz_ros2_control_tests' returned '0': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --install /home/e-yanthra/Documents/ar_ws/build/gz_ros2_control_tests
+[9.273s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests' for CMake module files
+[9.275s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests' for CMake config files
+[9.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_ros2_control_tests', 'cmake_prefix_path')
+[9.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.ps1'
+[9.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.dsv'
+[9.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.sh'
+[9.336s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/lib'
+[9.337s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/bin'
+[9.337s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/lib/pkgconfig/gz_ros2_control_tests.pc'
+[9.338s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/lib/python3.10/site-packages'
+[9.338s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/bin'
+[9.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.ps1'
+[9.394s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv'
+[9.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.sh'
+[9.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.bash'
+[9.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.zsh'
+[9.398s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/colcon-core/packages/gz_ros2_control_tests)
+[9.457s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sam_bot_nav2_gz)
+[9.513s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz' for CMake module files
+[9.514s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz' for CMake config files
+[9.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('sam_bot_nav2_gz', 'cmake_prefix_path')
+[9.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/hook/cmake_prefix_path.ps1'
+[9.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/hook/cmake_prefix_path.dsv'
+[9.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/hook/cmake_prefix_path.sh'
+[9.561s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/lib'
+[9.561s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/bin'
+[9.561s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/lib/pkgconfig/sam_bot_nav2_gz.pc'
+[9.562s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/lib/python3.10/site-packages'
+[9.563s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/bin'
+[9.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.ps1'
+[9.611s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.dsv'
+[9.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.sh'
+[9.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.bash'
+[9.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.zsh'
+[9.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz/share/colcon-core/packages/sam_bot_nav2_gz)
+[9.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control_demos)
+[9.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/e-yanthra/Documents/ar_ws/build/ign_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control:/home/e-yanthra/Documents/ar_ws/install/sam_bot_nav2_gz:/home/e-yanthra/Documents/ar_ws/install/navi_test:/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos:/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests:/home/e-yanthra/asc/asc_ws/install/rplidar_ros:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_world:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_bot:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --install /home/e-yanthra/Documents/ar_ws/build/ign_ros2_control_demos
+[9.673s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos' for CMake module files
+[9.675s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos' for CMake config files
+[9.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control_demos', 'cmake_prefix_path')
+[9.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[9.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[9.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.sh'
+[9.737s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/lib'
+[9.738s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/bin'
+[9.738s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/lib/pkgconfig/ign_ros2_control_demos.pc'
+[9.738s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/lib/python3.10/site-packages'
+[9.739s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/bin'
+[9.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.ps1'
+[9.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv'
+[9.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.sh'
+[9.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.bash'
+[9.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.zsh'
+[9.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/colcon-core/packages/ign_ros2_control_demos)
+[9.873s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz_ros2_control_tests)
+[9.937s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests' for CMake module files
+[9.939s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests' for CMake config files
+[9.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_ros2_control_tests', 'cmake_prefix_path')
+[10.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.ps1'
+[10.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.dsv'
+[10.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.sh'
+[10.005s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/lib'
+[10.006s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/bin'
+[10.006s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/lib/pkgconfig/gz_ros2_control_tests.pc'
+[10.006s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/lib/python3.10/site-packages'
+[10.007s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/bin'
+[10.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.ps1'
+[10.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv'
+[10.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.sh'
+[10.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.bash'
+[10.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.zsh'
+[10.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/e-yanthra/Documents/ar_ws/install/gz_ros2_control_tests/share/colcon-core/packages/gz_ros2_control_tests)
+[10.124s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control_demos)
+[10.174s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos' for CMake module files
+[10.175s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos' for CMake config files
+[10.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control_demos', 'cmake_prefix_path')
+[10.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[10.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[10.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.sh'
+[10.229s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/lib'
+[10.230s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/bin'
+[10.230s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/lib/pkgconfig/ign_ros2_control_demos.pc'
+[10.230s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/lib/python3.10/site-packages'
+[10.231s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/bin'
+[10.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.ps1'
+[10.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv'
+[10.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.sh'
+[10.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.bash'
+[10.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.zsh'
+[10.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/e-yanthra/Documents/ar_ws/install/ign_ros2_control_demos/share/colcon-core/packages/ign_ros2_control_demos)
+[13.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/e-yanthra/Documents/ar_ws/build/navi_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/e-yanthra/asc/asc_ws/install/locomotion:/home/e-yanthra/robocon/install/listener:/home/e-yanthra/eyrc_hb/hb_task6_ws/install/hb_task6:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task5b:/home/e-yanthra/eyrc_hb/hb_task5_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task4_ws/install/hb_task4b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2b:/home/e-yanthra/eyrc_hb/hb_task_2_ws/install/hb_task2a:/home/e-yanthra/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/e-yanthra/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/e-yanthra/Documents/ar_ws/build/navi_test -- -j8 -l8
+[14.027s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navi_test)
+[14.065s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/navi_test' for CMake module files
+[14.066s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/navi_test' for CMake config files
+[14.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('navi_test', 'cmake_prefix_path')
+[14.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/hook/cmake_prefix_path.ps1'
+[14.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/hook/cmake_prefix_path.dsv'
+[14.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/hook/cmake_prefix_path.sh'
+[14.108s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/navi_test/lib'
+[14.108s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/navi_test/bin'
+[14.108s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/navi_test/lib/pkgconfig/navi_test.pc'
+[14.109s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/navi_test/lib/python3.10/site-packages'
+[14.109s] Level 1:colcon.colcon_core.environment:checking '/home/e-yanthra/Documents/ar_ws/install/navi_test/bin'
+[14.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/package.ps1'
+[14.150s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/package.dsv'
+[14.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/package.sh'
+[14.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/package.bash'
+[14.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/e-yanthra/Documents/ar_ws/install/navi_test/share/navi_test/package.zsh'
+[14.155s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/e-yanthra/Documents/ar_ws/install/navi_test/share/colcon-core/packages/navi_test)
+[14.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.159s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.159s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[14.160s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.225s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[14.225s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.226s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.246s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.292s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/e-yanthra/Documents/ar_ws/install/local_setup.ps1'
+[14.295s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/e-yanthra/Documents/ar_ws/install/_local_setup_util_ps1.py'
+[14.298s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/e-yanthra/Documents/ar_ws/install/setup.ps1'
+[14.351s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/e-yanthra/Documents/ar_ws/install/local_setup.sh'
+[14.353s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/e-yanthra/Documents/ar_ws/install/_local_setup_util_sh.py'
+[14.354s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/e-yanthra/Documents/ar_ws/install/setup.sh'
+[14.402s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/e-yanthra/Documents/ar_ws/install/local_setup.bash'
+[14.403s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/e-yanthra/Documents/ar_ws/install/setup.bash'
+[14.445s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/e-yanthra/Documents/ar_ws/install/local_setup.zsh'
+[14.446s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/e-yanthra/Documents/ar_ws/install/setup.zsh'
