@@ -1,21 +1,21 @@
 
-# Navigation2 (Ignition) Gazebo Example
+# Autonomous Navigation with Nav2 in Gazebo
 
 
-[![artefacts_ci](https://app.artefacts.com/api/artefacts/navigation2-ignition-example/badges/all.png?branch=main)](https://app.artefacts.com/artefacts/navigation2-ignition-example)
 
-Minimal example ROS2 project to use Navigation2 with (Ignition) Gazebo. Based on the official Gazebo Classic example: [tutorial](https://navigation.ros.org/setup_guides/index.html), [code](https://github.com/ros-planning/navigation2_tutorials/tree/master/sam_bot_description)
-
-[gz-nav2-tb3.webm](https://user-images.githubusercontent.com/2298371/226628768-818a7c3f-e5e1-49c6-b819-112c2cfa668b.webm)
 
 
 ## Requirements
  - ROS 2 Humble
  - Gazebo Fortress
  - [Navigation 2](https://navigation.ros.org/build_instructions/index.html#install)
+   
+## Requirements for setting up gazebo robot simulation package
+link to original package : [Github Repo](https://github.com/art-e-fact/navigation2_ignition_gazebo_example)
 
-## Setup and build
+setup and build
 ```
+
 # Install Nav2 dependencies
 sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup
 
@@ -36,52 +36,23 @@ colcon build
 source install/setup.bash
 ```
 
-## Run examples
+## setup after cloning repo:
+create and build ws by running :
 ```
-# Launch Gazebo, RViz, and Navigation2
-ros2 launch sam_bot_nav2_gz complete_navigation.launch.py
-
-# Set goal poses in RViz or run a navigation example:
-ros2 run sam_bot_nav2_gz follow_waypoints.py
-ros2 run sam_bot_nav2_gz reach_goal.py
+colcon build
 ```
-
-## Run tests with **launch_testing**
+source ws using:
 ```
-# Start one of the tests with
-launch_test src/sam_bot_nav2_gz/test/test_bringup.launch.py
-launch_test src/sam_bot_nav2_gz/test/test_reach_goal.launch.py
-launch_test src/sam_bot_nav2_gz/test/test_follow_waypoints.launch.py
+source install/setup.bash
+```
+launch naigation + mapping using slam_toolbox :
+```
+ros2 launch navi_test ar_navi.launch.py
 ```
 
-
-
-## Run tests with **Artefacts CI**
- 1. Set up a new Artefacts CI project. Instructions: https://docs.artefacts.com/latest/
- 2. Replace the project name in the `artefacts.yaml` with the name of your project
+launch navigation using amcl and mapserver with premade map:
 ```
-# Run test locally
-artefacts run all
-
-# Run test remotely
-artefacts run-remote all --description "Test Navigation2"
-
-# Run test locally with Docker
-docker build -t nav2-gz .
-# ARTEFACTS_KEY can be generated at the project-settings page of the Artefacts CI dashboard
-docker run --rm -e ARTEFACTS_JOB_NAME=all -e ARTEFACTS_KEY=${ARTEFACTS_KEY} nav2-gz
+ros2 launch navi_test ar_navi_no_mapping.launch.py
 ```
 
-## Visualize navigation with **Rerun.io** (experimental)
-For more info, see: https://www.rerun.io/docs/howto/ros2-nav-turtlebot
-```
-cd rerun
-# create a virtual env and install dependencies
-python3 -m venv rr-venv
-source rr-venv/bin/activate
-pip install -r requirements
-# Run rerun node
-python run-rerun.py
-```
-![Screenshot from 2023-03-27 20-42-32](https://user-images.githubusercontent.com/2298371/228792085-66837913-32fe-4506-9624-673424328ea4.png)
 
